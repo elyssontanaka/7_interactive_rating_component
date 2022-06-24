@@ -14,38 +14,41 @@
 
 <body>
   <!-- Rating state start -->
-  <article class="card__rating">
-    <div class="card__container">
-      <div class="card__star-container">
-        <img src="images/icon-star.svg" class="star-icon" alt="star icon">
+  <main>
+    <article class="card__rating">
+      <div class="card__container">
+        <div class="card__star-container">
+          <img src="images/icon-star.svg" class="star-icon" alt="star icon">
+        </div>
+        <h1 class="card__title">How did we do?</h1>
+        <div class="card__text">Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</div>
+        <div class="card__rates">
+          <button class="card__element-container">1</button>
+          <button class="card__element-container">2</button>
+          <button class="card__element-container">3</button>
+          <button class="card__element-container">4</button>
+          <button class="card__element-container">5</button>
+        </div>
+        <button class="card__submit" onclick="submitFunction()">SUBMIT</button>
       </div>
-      <title class="card__title">How did we do?</title>
-      <div class="card__text">Please let us know how we did with your support request. All feedback is appreciated
-        to help us improve our offering!</div>
-      <div class="card__rates">
-        <button class="card__element-container">1</button>
-        <button class="card__element-container">2</button>
-        <button class="card__element-container">3</button>
-        <button class="card__element-container">4</button>
-        <button class="card__element-container">5</button>
-      </div>
-      <button class="card__submit" onclick="submitFunction()">SUBMIT</button>
-    </div>
-  </article>
-  <!-- Rating state end -->
+    </article>
+    <!-- Rating state end -->
 
-  <!-- Thank you state start -->
-  <article class="card__thank">
-    <div class="card__container">
-      <img src="images/illustration-thank-you.svg" class="illustration" alt="picture representing a credit card machine of some sort">
-      <div class="card__choice">You selected
-        <span class="card__result"></span> out of 5
+    <!-- Thank you state start -->
+    <article class="card__thank">
+      <div class="card__container">
+        <img src="images/illustration-thank-you.svg" class="illustration"
+          alt="picture representing a credit card machine of some sort">
+        <div class="card__choice">You selected
+          <span class="card__result"></span> out of 5
+        </div>
+        <div class="card__title">Thank you!</div>
+        <div class="card__text">We appreciate you taking the time to give a rating. If you ever need more support,
+          don't hesitate to get in touch!</div>
       </div>
-      <title class="card__title">Thank you!</title>
-      <div class="card__text">We appreciate you taking the time to give a rating. If you ever need more support,
-        don't hesitate to get in touch!</div>
-    </div>
-  </article>
+    </article>
+  </main>
   <!-- Thank you state end -->
 
 
